@@ -1,3 +1,2 @@
-name  = "Julia-Test-main"
-uuid = ""
 [deps]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
