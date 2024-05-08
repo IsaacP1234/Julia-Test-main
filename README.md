@@ -5,3 +5,4 @@ Adds each row in the tablaue to a set
 Multiples each stablizer in the set with each other stabilizer and adds results to set
 Repeats until no new states are added
 The resulting set contains all the stabilzers of the graph state. 
+Quantum Clifford library is cloned inside the project as it would be if modifcations were being made to it. 
