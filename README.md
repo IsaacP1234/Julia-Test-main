@@ -1,5 +1,5 @@
 # Julia-Test
-Generates random undirected graph with 4 to 10 vertices and 0 to the maximum number possible for the graph edges. 
+Generates random undirected graph with 4 to 10 vertices and 0 to the maximum number possible for the graph edges. \n
 Saves graph to plot.png
 Generates Stabilzer Tableau of graph
 Adds each row in the tablaue to a set
