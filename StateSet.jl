@@ -11,7 +11,7 @@ num_vertices = rand(4:10)
 max_edges = Int(num_vertices*(num_vertices-1)/2)
 num_edges = rand(0:max_edges)
 println(string("Generating graph with ", num_vertices, " vertices and ", num_edges, " edges"))
-g = SimpleGraph(5, 2)
+g = SimpleGraph(num_edges, num_vertices)
 #plot graph and save to file
 println(string("Plotting graph and saving plot to plot.png"))
 draw(PNG("plot.png", 16cm, 16cm), gplot(g))
